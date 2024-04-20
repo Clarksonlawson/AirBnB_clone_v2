@@ -2,6 +2,7 @@
 """ Test delete feature
 """
 from models.engine.file_storage import FileStorage
+from models.city import City
 from models.state import State
 
 fs = FileStorage()
