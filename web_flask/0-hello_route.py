@@ -15,6 +15,7 @@ def hello_hbnb():
 
 @app.route('/airbnb-onepage/', strict_slashes=False)
 def hello():
+    """ Route to return a simple string. """
     return "Hello HBNB!"
 
 if __name__ == "__main__":
